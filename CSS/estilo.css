@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	
+	font-size: 1em;
+	font-family: "New Century Schoolbook", serif;
+	background: #E4E7CE;
+	
+}
+
+h2 {
+	color: orange;
+}
+#topo{
+	
+	background: orange;
+	text-align: center;
+}
+
+#titulo{
+	color: gray;
+	padding: 20px 5px 10px 5px;
+	font-size: 1.5em;
+}
+
+#menu{
+	padding: 10px;
+}
+
+
+
+#area-principal {
+	padding: 15px;
+	width: 920px;
+	margin: 0 auto;
+}
+
+#area-de-postagem {
+	width: 660px;
+	float: left;
+}
+
+#area-lateral {
+	width: 240px;
+	background: white;
+	float: right;
+}
+
+#rodape{
+	background: #CCC;
+	text-align: center;
+	clear: both;
+}
+
+.item-menu{
+	padding: 0 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+.item-menu:link, .item-menu:visited {
+	background: orange;
+	color: white;
+}
+
+.item-menu:hover {
+	background: white;
+	color: orange;
+}
+
+.cor-titulo{
+	color:white;
+	padding: 10px 0;
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.data-postagem {
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	font-weight: bold; 
+}
+
+
+
+
+
+
