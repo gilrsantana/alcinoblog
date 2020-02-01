@@ -1,3 +1,4 @@
+/* Basic configurations */
 * {
 	margin: 0;
 	padding: 0;	
@@ -14,6 +15,14 @@ body {
 h2 {
 	color: orange;
 }
+
+h3{
+	background: lightgray;
+	color: gray;
+	text-align: center;
+}
+
+/* Configurations of top of the page */
 #topo{
 	
 	background: orange;
@@ -28,31 +37,6 @@ h2 {
 
 #menu{
 	padding: 10px;
-}
-
-
-
-#area-principal {
-	padding: 15px;
-	width: 920px;
-	margin: 0 auto;
-}
-
-#area-de-postagem {
-	width: 660px;
-	float: left;
-}
-
-#area-lateral {
-	width: 240px;
-	background: white;
-	float: right;
-}
-
-#rodape{
-	background: #CCC;
-	text-align: center;
-	clear: both;
 }
 
 .item-menu{
@@ -77,10 +61,34 @@ h2 {
 	padding: 10px 0;
 }
 
+/* Configurations of main of the page */
+#area-principal {
+	padding: 15px;
+	width: 920px;
+	margin: 0 auto;
+}
+
+#area-de-postagem {
+	width: 660px;
+	float: left;
+}
+
+#rodape{
+	background: #CCC;
+	text-align: center;
+	clear: both;
+}
+
 .postagem {
 	padding: 20px;
 	margin-bottom: 20px;
 	background: white;
+	text-decoration: none;
+}
+
+.postagem a{
+	text-decoration: none;
+	color: orange;
 }
 
 .data-postagem {
@@ -88,10 +96,28 @@ h2 {
 	border-bottom: 1px solid #f4f4f4;
 	padding-bottom: 10px;
 	font-weight: bold; 
+	display: block;
 }
 
+/* Configurations of side of the page */  
+#area-lateral {
+	width: 240px;
+	float: right;
+}
 
+#area-lateral a:link, #area-lateral a:visited{
+	color: orange;
+	text-decoration: none;
+}
 
+.conteudol{
+	background: white;
+	padding: 10px;
+	margin: 0px 10px 10px 10px;
+}
 
-
-
+.postagem-lateral {
+	padding: 10px 0px;
+	border-bottom: 1px solid gray;
+	font-size: 0.8em;
+}
